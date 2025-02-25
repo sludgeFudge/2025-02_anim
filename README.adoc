@@ -1,0 +1,30 @@
+= README: 2025-02
+
+== Working Files for Animation done in 2025-02
+
+This repository contains the working files for
+my animated works in February 2025.
+
+=== Works
+
+* link:./doc/cat-knock-pot.adoc[Cat Knocks Pot down]
+* link:./doc/stamp-vignette.adoc[Compositing Explained as a Factory Line]
+
+=== Required Software
+
+* Animation: link:https://opentoonz.github.io/e/[OpenToonz]
+* Video and Audio Editing: link:https://www.blackmagicdesign.com/products/davinciresolve[DaVinci Resolve]
+* Optional:
+** link:https://ffmpeg.org/[FFMPEG]
+** link:https://imagemagick.org/[ImageMagick]
+
+=== Rendering
+
+* link:./doc/opentoonz-render.adoc[OpenToonz Rendering]
+* link:./doc/davinci-resolve-render.adoc[DaVinci Resolve Rendering]
+* link:./doc/ffmpeg-render.adoc[FFMPEG Rendering]
+
+=== LICENSE
+
+All media is licensed under link:https://creativecommons.org/licenses/by/4.0/[CC BY 4.0 (Creative Commons Attribution 4.0 International)] . +
+Any code is licensed under the link:https://choosealicense.com/licenses/mit/[BSD 2-Clause “Simplified” License.]
