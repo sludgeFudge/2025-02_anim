@@ -1,0 +1,52 @@
+= README: cat-knock-pot
+
+== Cat Knocks Pot down
+
+=== Software
+
+* link:https://opentoonz.github.io/e/[OpenToonz]
+* link:https://www.blackmagicdesign.com/products/davinciresolve[DaVinci Resolve]
+* link:https://ffmpeg.org/[FFMPEG]
+* link:https://imagemagick.org/[ImageMagick]
+
+=== Working Files
+
+DaVinci Resolve:
+
+* Timeline: cat-throw-pot
+* Image sequence: cat-throw-pot
+
+OpenToonz:
+
+* Scene: follow-through_cat-flip-pot
+
+=== Credits
+
+Created by: Michael Chandy Thomson
+
+Audio: 
+
+[cols="4*"]
+|===
+|Link |Filename |Creator |Attribution Text
+
+|link:https://freesound.org/people/Krokulator/sounds/653910/[Freesound - soft-hit.wav by Krokulator]
+|653910__krokulator__soft-hit.wav
+|Krokulator
+|soft-hit.wav by Krokulator -- link:https://freesound.org/s/653910/[] -- License: Creative Commons 0
+
+|link:https://freesound.org/people/Kinoton/sounds/399080/[Freesound - Clay Pottery Drop ’n’ Break by Kinoton]
+|399080__kinoton__clay-pottery-drop-n-break.wav
+|Kinoton
+|Clay Pottery Drop ’n’ Break by Kinoton -- link:https://freesound.org/s/399080/[] -- License: Creative Commons 0
+
+|link:https://freesound.org/people/F.M.Audio/sounds/564183/?[Freesound - Banging Hands on Bottom of Wardrobe Slowly.wav by F.M.Audio]
+|564183__fmaudio__banging-hands-on-bottom-of-wardrobe-slowly.wav
+|F.M.Audio
+|Banging Hands on Bottom of Wardrobe Slowly.wav by F.M.Audio -- link:https://freesound.org/s/564183/[] -- License: Attribution 4.0
+
+|===
+
+=== License
+
+link:https://www.youtube.com/shorts/hUv_hokVBqg[Compositing Explained as a Factory Line] © 2025 by link:https://www.youtube.com/@copycat_anim[Michael Chandy Thomson] is licensed under link:https://creativecommons.org/licenses/by/4.0/[Creative Commons Attribution 4.0 International]

@@ -1,0 +1,24 @@
+= ffmpeg-render
+
+== FFMPEG Rendering 
+
+Since DaVinci Resolve cannot export to MP4 in the free version,
+use FFMPEG to do it for you.
+
+[source,bash]
+----
+ffmpeg in.mkv out.mp4
+----
+
+Since these videos are meant for the YT shorts format, I wanted the videos to loop as well.
+Use the `-stream_loop` tag to do so. 
+
+* `0`: no loop
+* `-1`: infinite
+* `n`: loops n+1 times. So a value of `1` will make the video loop 2 times.
+
+[source,bash]
+----
+ffmpeg -stream_loop 2 -i cat-throw-pot_out1.mp4 cat-throw-pot_out1_handbrake-loop.mp4
+ffmpeg -stream_loop 3 -i stamp-vignette_out1_handbrake.mp4 stamp-vignette_out1_hanbrake-loop.mp4
+----

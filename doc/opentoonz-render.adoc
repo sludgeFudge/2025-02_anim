@@ -1,0 +1,39 @@
+= opentoonz-render
+
+== Rendering OpenToonz Files
+
+=== Importing OpenToonz Project
+
+Find link:https://opentoonz.readthedocs.io/en/latest/managing_projects.html#setting-the-projectroot-1[Project Root]:
+
+* Windows Default: `C:\OpenToonz stuff\projects\` 
+* Mac Default: `/Applications/OpenToonz/OpenToonz stuff/projects/`
+* Linux Default (maybe): `~/.config/OpenToonz/stuff/projects/`
+
+After cloning this github repo:
+
+[source,bash]
+----
+git clone [url]
+----
+
+Enter directory `OpenToonz Stuff` and copy the directory `2025-02`
+into your Project Root.
+
+=== Opening Project
+
+Start OpenToonz and in the OpenToonz Startup Window, choose the Project `2025-02` from the drop-down box under "Current Project".
+
+image::./images/opentoon-startup.avif[]
+
+If you can't see the window go to the Toolbar: `Windows > Startup Popup` (Shortcut: `Alt` + `S`)
+
+=== Exporting Animation
+
+Go to the Toolbar: `Windows > Output Settings` (Shortcut: `Ctrl` + `R`)
+
+image::opentoonz-output-settings.avif[]
+
+Go to the File Settings section to make sure you know where it will be output to.
+
+Then hit the Render button.

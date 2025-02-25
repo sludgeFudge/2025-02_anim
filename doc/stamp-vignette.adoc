@@ -1,0 +1,71 @@
+= README: stamp-vignette
+
+== Compositing Explained as a Factory Line
+
+=== Software
+
+* link:https://opentoonz.github.io/e/[OpenToonz]
+* link:https://www.blackmagicdesign.com/products/davinciresolve[DaVinci Resolve]
+* link:https://ffmpeg.org/[FFMPEG]
+* link:https://imagemagick.org/[ImageMagick]
+
+=== Working Files
+
+DaVinci Resolve:
+
+* Timeline: stamp-vignette
+* Image sequence: stamp-vignette
+
+OpenToonz:
+
+* Scene: stamp-vignette
+
+This scene was originally animated in landscape.
+To make it portrait to fit the shorts format,
+I went into the image sequence directory and ran this ImageMagick command:
+
+[source,bash]
+----
+mogrify -rotate 90 *
+----
+
+=== Credits
+
+Created by: Michael Chandy Thomson
+
+Audio:
+
+[cols="4*"]
+|===
+|Link |Filename |Creator |Attribution Text
+
+|link:https://freesound.org/people/14FPansk%C3%A1Novotn%C3%BD_Jan/sounds/419425/[Freesound - 1-12_Print.wav by 14FPanskáNovotný_Jan]
+|419425__14fpanskanovotny_jan__1-12_print.wav
+|14FPanskáNovotný_Jan
+|1-12_Print.wav by 14FPanskáNovotný_Jan -- link:https://freesound.org/s/419425/[] -- License: Creative Commons 0
+
+|link:https://freesound.org/people/Mikes-MultiMedia/sounds/418634/[Freesound - throwing a pile of paper series by Mikes-MultiMedia]
+|418634__mikes-multimedia__throwing-a-pile-of-paper-series.wav
+|Mikes-MultiMedia
+|throwing a pile of paper series by Mikes-MultiMedia -- link:https://freesound.org/s/418634/[] -- License: Creative Commons 0
+
+|link:https://freesound.org/people/vonis22/sounds/339167/[Freesound - Tractor whirring by vonis22]
+|339167__vonis22__tractor-whirring.wav
+|vonis22
+|Tractor whirring by vonis22 -- link:https://freesound.org/s/339167/[] -- License: Creative Commons 0
+
+|link:https://freesound.org/people/martian/sounds/570733/[Freesound - computer hard drive access fan click.wav by martian]
+|570733__martian__computer-hard-drive-access-fan-click.wav
+|martian
+|computer hard drive access fan click.wav by martian -- link:https://freesound.org/s/570733/[] -- License: Creative Commons 0
+
+|link:https://freesound.org/people/batuhansezer/sounds/432253/[Freesound - Hydraulic, Office Chair.wav by batuhansezer]
+|432253__batuhansezer__hydraulic-office-chair.wav
+|batuhansezer
+|Hydraulic, Office Chair.wav by batuhansezer -- link:https://freesound.org/s/432253/[] -- License: Attribution 4.0
+
+|===
+
+=== License
+
+link:https://www.youtube.com/shorts/qELP73xLjHM[Compositing Explained as a Factory Line] © 2025 by link:https://www.youtube.com/@copycat_anim[Michael Chandy Thomson] is licensed under link:https://creativecommons.org/licenses/by/4.0/[Creative Commons Attribution 4.0 International]

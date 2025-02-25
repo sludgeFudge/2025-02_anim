@@ -1,0 +1,39 @@
+= davinci-resolve-render
+
+== Rendering DaVinci Resolve Files
+
+=== Extract Zipped Image Sequences
+
+You can render the image sequences from OpenToonz, but image sequences are already available in the DaVinci Resolve Archive folder: `2025-02.dra`
+
+Before importing the Project into DaVinci Resolve, please unzip the compressed image archives:
+
+* `2025-02/github/2025-02.dra/MediaFiles/opentoonz-proj-files/outputs/cat-throw-pot.7z`
+* `2025-02/github/2025-02.dra/MediaFiles/opentoonz-proj-files/outputs/stamp-vignette.7z`
+
+You may simply run this command (on Linux/Mac) in the `.dra` directory (make sure you have `p7zip` installed):
+
+[source,bash]
+----
+find . -name "*.7z" -execdir 7z x {} -o* \;
+----
+
+=== Importing the Archive
+
+Start DaVinci Resolve, and ensure the Project Manager is open.
+If you don't see it, go to Toolbar: `File > Project Manager...` (shortcut: `Shift` + `1`)
+
+Simply drag the `.dra` folder into the window and name your new project.
+
+image::./images/resolve-proj-manager.avif[]
+
+=== Exporting the Video
+
+Go to the Deliver Tab (bottom right of window), and select your timeline from the drop down menu above the viewer.
+Each timeline contains an animated short.
+
+image::./images/resolve-deliver.avif[]
+
+Adjust your Output Settings in the Left Panel and click the "Add to Render Queue" button.
+
+Then go to the Render Queue panel on the top right and click the "Render All" button, when you've added all the versions you want to export.
